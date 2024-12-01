@@ -1,0 +1,47 @@
+/* Variáveis CSS */
+:root {
+   --cor-primaria: #3996DB;
+   --cor-secundaria: #E2E4E9;
+   --cor-texto: #C0C4CE;
+   --cor-fundo: #0D0E11;
+   --cor-link: #E3646E;
+   --espacamento: 20px;
+ }
+ 
+ /* Reset básico */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: "Asap", sans-serif;
+   background-color: var(--cor-fundo);
+   color: var(--cor-secundaria);
+   line-height: 1.6;
+ }
+ 
+ a {
+   color: var(--cor-link);
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+
+ h1{
+   margin-bottom: --20px;
+   text-align: center;
+   font-size: xxx-large;
+ }
+ h2, h4{
+   margin-bottom: var(--espacamento);
+   text-align: center;
+ }
+ h5{
+  margin-bottom: var(--espacamento);
+  text-align: center;
+ }
+ 

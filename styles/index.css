@@ -1,0 +1,109 @@
+/* Importando global.css */
+@import url(global.css);
+
+/* Seções */
+section {
+  padding: var(--espacamento);
+}
+
+.dev-photo {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: var(--espacamento);
+  margin-left: 600px;
+}
+.tech{
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  margin-bottom: 80px;
+}
+.tech-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: var(--espacamento);
+  margin-left: 420px;
+}
+
+.tech-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.5s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Grid de Projetos */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--espacamento);
+}
+
+.projeto {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  padding: var(--espacamento);
+  border-radius: 8px;
+  text-align: justify;
+}
+.projeto img {
+  width: 100%;
+  border-radius: 8px;
+}
+/* Grid de Serviços */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--espacamento);
+}
+
+.servico {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  padding: var(--espacamento);
+  border-radius: 8px;
+  text-align: justify;
+}
+.servico img {
+  width: 10%;
+  border-radius: 8px;
+}
+
+/* Redes Sociais */
+.contato {
+  display: grid;
+  margin-left: 450px;
+  margin-right: 450px;
+  gap: 15px;
+  margin-top: var(--espacamento);
+  background-color: green;
+  color: var(--cor-texto);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contato img {
+  width: 40px;
+  height: 40px;
+  margin-left: 150px;
+  
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+.setainc{
+  transform: scale(.6);
+  margin-left: 150px;
+ 
+}
+
+footer {
+  text-align: center;
+  background-color: blueviolet;
+  color: var(--cor-texto);
+  padding: var(--espacamento);
+}
